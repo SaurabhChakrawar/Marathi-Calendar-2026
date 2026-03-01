@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+        User notes (marathi_calendar_notes) and settings (marathi_calendar_settings)
+        are included in device backup by default so users keep their data on new devices.
+    -->
+</full-backup-content>

@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Keystore — NEVER commit these
+keystore.properties
+*.keystore
+*.jks
+
+# OS
+.DS_Store

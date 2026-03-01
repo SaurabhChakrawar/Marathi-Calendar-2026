@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!--
+            User notes (marathi_calendar_notes) and settings (marathi_calendar_settings)
+            are backed up to Google Drive by default.
+        -->
+    </cloud-backup>
+    <device-transfer>
+        <!-- All SharedPreferences transfer during device-to-device migrations -->
+    </device-transfer>
+</data-extraction-rules>

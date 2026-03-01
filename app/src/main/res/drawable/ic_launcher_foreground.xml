@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── Calendar white body ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,26 L80,26 Q86,26 86,32 L86,88 Q86,92 80,92 L28,92 Q22,92 22,88 L22,32 Q22,26 28,26 Z"/>
+
+    <!-- ── Saffron header bar ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M28,26 L80,26 Q86,26 86,32 L86,48 L22,48 L22,32 Q22,26 28,26 Z"/>
+
+    <!-- ── Binding ring 1 — outer dark ring at x=38 ── -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M33,26 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    <!-- ring 1 inner white hole -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35.5,26 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+
+    <!-- ── Binding ring 2 at x=54 ── -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M49,26 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51.5,26 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+
+    <!-- ── Binding ring 3 at x=70 ── -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M65,26 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67.5,26 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+
+    <!-- ── Weekday header — 7 small bars ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:alpha="0.35"
+        android:pathData="M24,52 h5 v3 h-5Z  M33,52 h5 v3 h-5Z  M42,52 h5 v3 h-5Z  M51,52 h5 v3 h-5Z  M60,52 h5 v3 h-5Z  M69,52 h5 v3 h-5Z  M78,52 h5 v3 h-5Z"/>
+
+    <!-- ── Date grid Row 1 — partial start (cols 4–7) ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:alpha="0.22"
+        android:pathData="M51,57 h7 v7 h-7Z  M60,57 h7 v7 h-7Z  M69,57 h7 v7 h-7Z  M78,57 h5 v7 h-5Z"/>
+
+    <!-- ── Row 2 — full, skip col 2 (today circle position) ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:alpha="0.22"
+        android:pathData="M24,66 h7 v7 h-7Z  M42,66 h7 v7 h-7Z  M51,66 h7 v7 h-7Z  M60,66 h7 v7 h-7Z  M69,66 h7 v7 h-7Z  M78,66 h5 v7 h-5Z"/>
+
+    <!-- ── Today circle highlight — col 2, row 2 ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M29,69.5 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0"/>
+
+    <!-- ── Row 3 — full ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:alpha="0.20"
+        android:pathData="M24,75 h7 v7 h-7Z  M33,75 h7 v7 h-7Z  M42,75 h7 v7 h-7Z  M51,75 h7 v7 h-7Z  M60,75 h7 v7 h-7Z  M69,75 h7 v7 h-7Z  M78,75 h5 v7 h-5Z"/>
+
+    <!-- ── Row 4 — partial end (cols 1–4) ── -->
+    <path
+        android:fillColor="#FF6F00"
+        android:alpha="0.15"
+        android:pathData="M24,84 h7 v5 h-7Z  M33,84 h7 v5 h-7Z  M42,84 h7 v5 h-7Z  M51,84 h7 v5 h-7Z"/>
+
+</vector>

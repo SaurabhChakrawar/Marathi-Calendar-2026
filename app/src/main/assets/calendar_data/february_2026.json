@@ -1,0 +1,1426 @@
+{
+  "monthNumber": 2,
+  "monthNameEnglish": "February",
+  "monthNameMarathi": "फेब्रुवारी",
+  "year": 2026,
+  "totalDays": 28,
+  "firstDayOfWeek": 1,
+  "marathiMonthsActive": [
+    "माघ",
+    "फाल्गुन"
+  ],
+  "days": [
+    {
+      "gregorianDate": 1,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 1,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 3,
+        "tithiName": "तृतीया",
+        "tithiNameEnglish": "Tritiya",
+        "shakaSamvat": 1947,
+        "marathiDay": "रविवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 3तृतीया",
+          "nameEnglish": "Shukla Tritiya",
+          "endTime": "20:52",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "भरणी",
+          "nameEnglish": "Bharani",
+          "endTime": "11:01"
+        },
+        "yoga": {
+          "name": "शुक्ल",
+          "nameEnglish": "Shukla",
+          "endTime": "16:46"
+        },
+        "karana": {
+          "first": "तैतिल",
+          "firstEnglish": "Taitila",
+          "second": "गर",
+          "secondEnglish": "Gara"
+        },
+        "rahuKalam": "16:30 - 18:00",
+        "gulikaKalam": "15:00 - 16:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "07:00",
+      "sunsetTime": "18:12"
+    },
+    {
+      "gregorianDate": 2,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 2,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 4,
+        "tithiName": "चतुर्थी",
+        "tithiNameEnglish": "Chaturthi",
+        "shakaSamvat": 1947,
+        "marathiDay": "सोमवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 4चतुर्थी",
+          "nameEnglish": "Shukla Chaturthi",
+          "endTime": "10:02",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "कृत्तिका",
+          "nameEnglish": "Krittika",
+          "endTime": "14:13"
+        },
+        "yoga": {
+          "name": "ब्रह्म",
+          "nameEnglish": "Brahma",
+          "endTime": "18:02"
+        },
+        "karana": {
+          "first": "गर",
+          "firstEnglish": "Gara",
+          "second": "वणिज",
+          "secondEnglish": "Vanija"
+        },
+        "rahuKalam": "07:30 - 09:00",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:59",
+      "sunsetTime": "18:12"
+    },
+    {
+      "gregorianDate": 3,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 3,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 5,
+        "tithiName": "पंचमी",
+        "tithiNameEnglish": "Panchami",
+        "shakaSamvat": 1947,
+        "marathiDay": "मंगळवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 5पंचमी",
+          "nameEnglish": "Shukla Panchami",
+          "endTime": "14:12",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "रोहिणी",
+          "nameEnglish": "Rohini",
+          "endTime": "17:25"
+        },
+        "yoga": {
+          "name": "इंद्र",
+          "nameEnglish": "Indra",
+          "endTime": "14:18"
+        },
+        "karana": {
+          "first": "वणिज",
+          "firstEnglish": "Vanija",
+          "second": "विष्टी",
+          "secondEnglish": "Vishti"
+        },
+        "rahuKalam": "15:00 - 16:30",
+        "gulikaKalam": "12:00 - 13:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:58",
+      "sunsetTime": "18:13"
+    },
+    {
+      "gregorianDate": 4,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 4,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 6,
+        "tithiName": "षष्ठी",
+        "tithiNameEnglish": "Shashthi",
+        "shakaSamvat": 1947,
+        "marathiDay": "बुधवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 6षष्ठी",
+          "nameEnglish": "Shukla Shashthi",
+          "endTime": "18:22",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "मृगशीर्ष",
+          "nameEnglish": "Mrigashirsha",
+          "endTime": "10:37"
+        },
+        "yoga": {
+          "name": "वैधृती",
+          "nameEnglish": "Vaidhriti",
+          "endTime": "16:34"
+        },
+        "karana": {
+          "first": "विष्टी",
+          "firstEnglish": "Vishti",
+          "second": "बव",
+          "secondEnglish": "Bava"
+        },
+        "rahuKalam": "12:00 - 13:30",
+        "gulikaKalam": "10:30 - 12:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:58",
+      "sunsetTime": "18:13"
+    },
+    {
+      "gregorianDate": 5,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 5,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 7,
+        "tithiName": "सप्तमी",
+        "tithiNameEnglish": "Saptami",
+        "shakaSamvat": 1947,
+        "marathiDay": "गुरुवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 7सप्तमी",
+          "nameEnglish": "Shukla Saptami",
+          "endTime": "08:32",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "आर्द्रा",
+          "nameEnglish": "Ardra",
+          "endTime": "13:49"
+        },
+        "yoga": {
+          "name": "विष्कंभ",
+          "nameEnglish": "Vishkambha",
+          "endTime": "18:50"
+        },
+        "karana": {
+          "first": "बव",
+          "firstEnglish": "Bava",
+          "second": "बालव",
+          "secondEnglish": "Balava"
+        },
+        "rahuKalam": "13:30 - 15:00",
+        "gulikaKalam": "09:00 - 10:30"
+      },
+      "festivals": [
+        {
+          "name": "संकष्टी चतुर्थी",
+          "nameEnglish": "Sankashti Chaturthi",
+          "type": "RELIGIOUS_OBSERVANCE",
+          "description": "",
+          "descriptionEnglish": ""
+        }
+      ],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:57",
+      "sunsetTime": "18:14"
+    },
+    {
+      "gregorianDate": 6,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 6,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 8,
+        "tithiName": "अष्टमी",
+        "tithiNameEnglish": "Ashtami",
+        "shakaSamvat": 1947,
+        "marathiDay": "शुक्रवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 8अष्टमी",
+          "nameEnglish": "Shukla Ashtami",
+          "endTime": "12:42",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "पुनर्वसु",
+          "nameEnglish": "Punarvasu",
+          "endTime": "16:01"
+        },
+        "yoga": {
+          "name": "प्रीती",
+          "nameEnglish": "Priti",
+          "endTime": "14:06"
+        },
+        "karana": {
+          "first": "बालव",
+          "firstEnglish": "Balava",
+          "second": "कौलव",
+          "secondEnglish": "Kaulava"
+        },
+        "rahuKalam": "10:30 - 12:00",
+        "gulikaKalam": "07:30 - 09:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:56",
+      "sunsetTime": "18:14"
+    },
+    {
+      "gregorianDate": 7,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 7,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 9,
+        "tithiName": "नवमी",
+        "tithiNameEnglish": "Navami",
+        "shakaSamvat": 1947,
+        "marathiDay": "शनिवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 9नवमी",
+          "nameEnglish": "Shukla Navami",
+          "endTime": "16:52",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "पुष्य",
+          "nameEnglish": "Pushya",
+          "endTime": "19:13"
+        },
+        "yoga": {
+          "name": "आयुष्मान",
+          "nameEnglish": "Ayushman",
+          "endTime": "16:22"
+        },
+        "karana": {
+          "first": "कौलव",
+          "firstEnglish": "Kaulava",
+          "second": "तैतिल",
+          "secondEnglish": "Taitila"
+        },
+        "rahuKalam": "09:00 - 10:30",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:56",
+      "sunsetTime": "18:15"
+    },
+    {
+      "gregorianDate": 8,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 1,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 10,
+        "tithiName": "दशमी",
+        "tithiNameEnglish": "Dashami",
+        "shakaSamvat": 1947,
+        "marathiDay": "रविवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 10दशमी",
+          "nameEnglish": "Shukla Dashami",
+          "endTime": "20:02",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "आश्लेषा",
+          "nameEnglish": "Ashlesha",
+          "endTime": "12:25"
+        },
+        "yoga": {
+          "name": "सौभाग्य",
+          "nameEnglish": "Saubhagya",
+          "endTime": "18:38"
+        },
+        "karana": {
+          "first": "तैतिल",
+          "firstEnglish": "Taitila",
+          "second": "गर",
+          "secondEnglish": "Gara"
+        },
+        "rahuKalam": "16:30 - 18:00",
+        "gulikaKalam": "15:00 - 16:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:55",
+      "sunsetTime": "18:16"
+    },
+    {
+      "gregorianDate": 9,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 2,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 11,
+        "tithiName": "एकादशी",
+        "tithiNameEnglish": "Ekadashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "सोमवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 11एकादशी",
+          "nameEnglish": "Shukla Ekadashi",
+          "endTime": "10:12",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "मघा",
+          "nameEnglish": "Magha",
+          "endTime": "15:37"
+        },
+        "yoga": {
+          "name": "शोभन",
+          "nameEnglish": "Shobhana",
+          "endTime": "14:54"
+        },
+        "karana": {
+          "first": "गर",
+          "firstEnglish": "Gara",
+          "second": "वणिज",
+          "secondEnglish": "Vanija"
+        },
+        "rahuKalam": "07:30 - 09:00",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:54",
+      "sunsetTime": "18:16"
+    },
+    {
+      "gregorianDate": 10,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 3,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 12,
+        "tithiName": "द्वादशी",
+        "tithiNameEnglish": "Dwadashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "मंगळवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 12द्वादशी",
+          "nameEnglish": "Shukla Dwadashi",
+          "endTime": "14:22",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "पूर्वा फाल्गुनी",
+          "nameEnglish": "Purva Phalguni",
+          "endTime": "18:49"
+        },
+        "yoga": {
+          "name": "अतिगंड",
+          "nameEnglish": "Atiganda",
+          "endTime": "16:10"
+        },
+        "karana": {
+          "first": "वणिज",
+          "firstEnglish": "Vanija",
+          "second": "विष्टी",
+          "secondEnglish": "Vishti"
+        },
+        "rahuKalam": "15:00 - 16:30",
+        "gulikaKalam": "12:00 - 13:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:54",
+      "sunsetTime": "18:17"
+    },
+    {
+      "gregorianDate": 11,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 4,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 13,
+        "tithiName": "त्रयोदशी",
+        "tithiNameEnglish": "Trayodashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "बुधवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 13त्रयोदशी",
+          "nameEnglish": "Shukla Trayodashi",
+          "endTime": "18:32",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "उत्तरा फाल्गुनी",
+          "nameEnglish": "Uttara Phalguni",
+          "endTime": "11:01"
+        },
+        "yoga": {
+          "name": "सुकर्मा",
+          "nameEnglish": "Sukarma",
+          "endTime": "18:26"
+        },
+        "karana": {
+          "first": "विष्टी",
+          "firstEnglish": "Vishti",
+          "second": "बव",
+          "secondEnglish": "Bava"
+        },
+        "rahuKalam": "12:00 - 13:30",
+        "gulikaKalam": "10:30 - 12:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:53",
+      "sunsetTime": "18:17"
+    },
+    {
+      "gregorianDate": 12,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 5,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 14,
+        "tithiName": "चतुर्दशी",
+        "tithiNameEnglish": "Chaturdashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "गुरुवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 14चतुर्दशी",
+          "nameEnglish": "Shukla Chaturdashi",
+          "endTime": "08:42",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "हस्त",
+          "nameEnglish": "Hasta",
+          "endTime": "14:13"
+        },
+        "yoga": {
+          "name": "धृती",
+          "nameEnglish": "Dhriti",
+          "endTime": "14:42"
+        },
+        "karana": {
+          "first": "बव",
+          "firstEnglish": "Bava",
+          "second": "बालव",
+          "secondEnglish": "Balava"
+        },
+        "rahuKalam": "13:30 - 15:00",
+        "gulikaKalam": "09:00 - 10:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:52",
+      "sunsetTime": "18:18"
+    },
+    {
+      "gregorianDate": 13,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 6,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 15,
+        "tithiName": "पूर्णिमा",
+        "tithiNameEnglish": "Purnima",
+        "shakaSamvat": 1947,
+        "marathiDay": "शुक्रवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल पूर्णिमा",
+          "nameEnglish": "Shukla Purnima",
+          "endTime": "12:52",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "चित्रा",
+          "nameEnglish": "Chitra",
+          "endTime": "17:25"
+        },
+        "yoga": {
+          "name": "शूल",
+          "nameEnglish": "Shula",
+          "endTime": "16:58"
+        },
+        "karana": {
+          "first": "बालव",
+          "firstEnglish": "Balava",
+          "second": "कौलव",
+          "secondEnglish": "Kaulava"
+        },
+        "rahuKalam": "10:30 - 12:00",
+        "gulikaKalam": "07:30 - 09:00"
+      },
+      "festivals": [
+        {
+          "name": "विजया एकादशी",
+          "nameEnglish": "Vijaya Ekadashi",
+          "type": "VRAT",
+          "description": "",
+          "descriptionEnglish": ""
+        }
+      ],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:52",
+      "sunsetTime": "18:19"
+    },
+    {
+      "gregorianDate": 14,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 7,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 1,
+        "tithiName": "प्रतिपदा",
+        "tithiNameEnglish": "Pratipada",
+        "shakaSamvat": 1947,
+        "marathiDay": "शनिवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 1प्रतिपदा",
+          "nameEnglish": "Krishna Pratipada",
+          "endTime": "16:02",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "स्वाती",
+          "nameEnglish": "Swati",
+          "endTime": "10:37"
+        },
+        "yoga": {
+          "name": "गंड",
+          "nameEnglish": "Ganda",
+          "endTime": "18:14"
+        },
+        "karana": {
+          "first": "कौलव",
+          "firstEnglish": "Kaulava",
+          "second": "तैतिल",
+          "secondEnglish": "Taitila"
+        },
+        "rahuKalam": "09:00 - 10:30",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:51",
+      "sunsetTime": "18:19"
+    },
+    {
+      "gregorianDate": 15,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 1,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 2,
+        "tithiName": "द्वितीया",
+        "tithiNameEnglish": "Dwitiya",
+        "shakaSamvat": 1947,
+        "marathiDay": "रविवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 2द्वितीया",
+          "nameEnglish": "Krishna Dwitiya",
+          "endTime": "20:12",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "विशाखा",
+          "nameEnglish": "Vishakha",
+          "endTime": "13:49"
+        },
+        "yoga": {
+          "name": "वृद्धी",
+          "nameEnglish": "Vriddhi",
+          "endTime": "14:30"
+        },
+        "karana": {
+          "first": "तैतिल",
+          "firstEnglish": "Taitila",
+          "second": "गर",
+          "secondEnglish": "Gara"
+        },
+        "rahuKalam": "16:30 - 18:00",
+        "gulikaKalam": "15:00 - 16:30"
+      },
+      "festivals": [
+        {
+          "name": "महाशिवरात्री",
+          "nameEnglish": "Maha Shivaratri",
+          "type": "MAJOR_FESTIVAL",
+          "description": "भगवान शंकरांची महापूजा",
+          "descriptionEnglish": "Festival of Lord Shiva"
+        }
+      ],
+      "isGovernmentHoliday": true,
+      "governmentHolidayName": "Maha Shivaratri",
+      "governmentHolidayNameMarathi": "महाशिवरात्री",
+      "sunriseTime": "06:50",
+      "sunsetTime": "18:20"
+    },
+    {
+      "gregorianDate": 16,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 2,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 3,
+        "tithiName": "तृतीया",
+        "tithiNameEnglish": "Tritiya",
+        "shakaSamvat": 1947,
+        "marathiDay": "सोमवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 3तृतीया",
+          "nameEnglish": "Krishna Tritiya",
+          "endTime": "10:22",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "अनुराधा",
+          "nameEnglish": "Anuradha",
+          "endTime": "16:01"
+        },
+        "yoga": {
+          "name": "ध्रुव",
+          "nameEnglish": "Dhruva",
+          "endTime": "16:46"
+        },
+        "karana": {
+          "first": "गर",
+          "firstEnglish": "Gara",
+          "second": "वणिज",
+          "secondEnglish": "Vanija"
+        },
+        "rahuKalam": "07:30 - 09:00",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:50",
+      "sunsetTime": "18:20"
+    },
+    {
+      "gregorianDate": 17,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 3,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 4,
+        "tithiName": "चतुर्थी",
+        "tithiNameEnglish": "Chaturthi",
+        "shakaSamvat": 1947,
+        "marathiDay": "मंगळवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 4चतुर्थी",
+          "nameEnglish": "Krishna Chaturthi",
+          "endTime": "14:32",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "ज्येष्ठा",
+          "nameEnglish": "Jyeshtha",
+          "endTime": "19:13"
+        },
+        "yoga": {
+          "name": "व्याघात",
+          "nameEnglish": "Vyaghata",
+          "endTime": "18:02"
+        },
+        "karana": {
+          "first": "वणिज",
+          "firstEnglish": "Vanija",
+          "second": "विष्टी",
+          "secondEnglish": "Vishti"
+        },
+        "rahuKalam": "15:00 - 16:30",
+        "gulikaKalam": "12:00 - 13:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:49",
+      "sunsetTime": "18:21"
+    },
+    {
+      "gregorianDate": 18,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 4,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 5,
+        "tithiName": "पंचमी",
+        "tithiNameEnglish": "Panchami",
+        "shakaSamvat": 1947,
+        "marathiDay": "बुधवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 5पंचमी",
+          "nameEnglish": "Krishna Panchami",
+          "endTime": "18:42",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "मूळ",
+          "nameEnglish": "Mula",
+          "endTime": "12:25"
+        },
+        "yoga": {
+          "name": "हर्षण",
+          "nameEnglish": "Harshana",
+          "endTime": "14:18"
+        },
+        "karana": {
+          "first": "विष्टी",
+          "firstEnglish": "Vishti",
+          "second": "बव",
+          "secondEnglish": "Bava"
+        },
+        "rahuKalam": "12:00 - 13:30",
+        "gulikaKalam": "10:30 - 12:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:48",
+      "sunsetTime": "18:22"
+    },
+    {
+      "gregorianDate": 19,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 5,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 6,
+        "tithiName": "षष्ठी",
+        "tithiNameEnglish": "Shashthi",
+        "shakaSamvat": 1947,
+        "marathiDay": "गुरुवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 6षष्ठी",
+          "nameEnglish": "Krishna Shashthi",
+          "endTime": "08:52",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "पूर्वाषाढा",
+          "nameEnglish": "Purva Ashadha",
+          "endTime": "15:37"
+        },
+        "yoga": {
+          "name": "वज्र",
+          "nameEnglish": "Vajra",
+          "endTime": "16:34"
+        },
+        "karana": {
+          "first": "बव",
+          "firstEnglish": "Bava",
+          "second": "बालव",
+          "secondEnglish": "Balava"
+        },
+        "rahuKalam": "13:30 - 15:00",
+        "gulikaKalam": "09:00 - 10:30"
+      },
+      "festivals": [
+        {
+          "name": "छत्रपती शिवाजी महाराज जयंती",
+          "nameEnglish": "Chhatrapati Shivaji Maharaj Jayanti",
+          "type": "GOVERNMENT_HOLIDAY",
+          "description": "",
+          "descriptionEnglish": ""
+        }
+      ],
+      "isGovernmentHoliday": true,
+      "governmentHolidayName": "Chhatrapati Shivaji Maharaj Jayanti",
+      "governmentHolidayNameMarathi": "छत्रपती शिवाजी महाराज जयंती",
+      "sunriseTime": "06:48",
+      "sunsetTime": "18:22"
+    },
+    {
+      "gregorianDate": 20,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 6,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 7,
+        "tithiName": "सप्तमी",
+        "tithiNameEnglish": "Saptami",
+        "shakaSamvat": 1947,
+        "marathiDay": "शुक्रवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 7सप्तमी",
+          "nameEnglish": "Krishna Saptami",
+          "endTime": "12:02",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "उत्तराषाढा",
+          "nameEnglish": "Uttara Ashadha",
+          "endTime": "18:49"
+        },
+        "yoga": {
+          "name": "सिद्धी",
+          "nameEnglish": "Siddhi",
+          "endTime": "18:50"
+        },
+        "karana": {
+          "first": "बालव",
+          "firstEnglish": "Balava",
+          "second": "कौलव",
+          "secondEnglish": "Kaulava"
+        },
+        "rahuKalam": "10:30 - 12:00",
+        "gulikaKalam": "07:30 - 09:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:47",
+      "sunsetTime": "18:23"
+    },
+    {
+      "gregorianDate": 21,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 7,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 8,
+        "tithiName": "अष्टमी",
+        "tithiNameEnglish": "Ashtami",
+        "shakaSamvat": 1947,
+        "marathiDay": "शनिवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 8अष्टमी",
+          "nameEnglish": "Krishna Ashtami",
+          "endTime": "16:12",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "श्रवण",
+          "nameEnglish": "Shravana",
+          "endTime": "11:01"
+        },
+        "yoga": {
+          "name": "व्यतीपात",
+          "nameEnglish": "Vyatipata",
+          "endTime": "14:06"
+        },
+        "karana": {
+          "first": "कौलव",
+          "firstEnglish": "Kaulava",
+          "second": "तैतिल",
+          "secondEnglish": "Taitila"
+        },
+        "rahuKalam": "09:00 - 10:30",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:46",
+      "sunsetTime": "18:23"
+    },
+    {
+      "gregorianDate": 22,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 1,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 9,
+        "tithiName": "नवमी",
+        "tithiNameEnglish": "Navami",
+        "shakaSamvat": 1947,
+        "marathiDay": "रविवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 9नवमी",
+          "nameEnglish": "Krishna Navami",
+          "endTime": "20:22",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "धनिष्ठा",
+          "nameEnglish": "Dhanishtha",
+          "endTime": "14:13"
+        },
+        "yoga": {
+          "name": "वरीयान",
+          "nameEnglish": "Variyan",
+          "endTime": "16:22"
+        },
+        "karana": {
+          "first": "तैतिल",
+          "firstEnglish": "Taitila",
+          "second": "गर",
+          "secondEnglish": "Gara"
+        },
+        "rahuKalam": "16:30 - 18:00",
+        "gulikaKalam": "15:00 - 16:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:46",
+      "sunsetTime": "18:24"
+    },
+    {
+      "gregorianDate": 23,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 2,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 10,
+        "tithiName": "दशमी",
+        "tithiNameEnglish": "Dashami",
+        "shakaSamvat": 1947,
+        "marathiDay": "सोमवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 10दशमी",
+          "nameEnglish": "Krishna Dashami",
+          "endTime": "10:32",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "शतभिषा",
+          "nameEnglish": "Shatabhisha",
+          "endTime": "17:25"
+        },
+        "yoga": {
+          "name": "परिघ",
+          "nameEnglish": "Parigha",
+          "endTime": "18:38"
+        },
+        "karana": {
+          "first": "गर",
+          "firstEnglish": "Gara",
+          "second": "वणिज",
+          "secondEnglish": "Vanija"
+        },
+        "rahuKalam": "07:30 - 09:00",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:45",
+      "sunsetTime": "18:25"
+    },
+    {
+      "gregorianDate": 24,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 3,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 11,
+        "tithiName": "एकादशी",
+        "tithiNameEnglish": "Ekadashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "मंगळवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 11एकादशी",
+          "nameEnglish": "Krishna Ekadashi",
+          "endTime": "14:42",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "पूर्वाभाद्रपदा",
+          "nameEnglish": "Purva Bhadrapada",
+          "endTime": "10:37"
+        },
+        "yoga": {
+          "name": "शिव",
+          "nameEnglish": "Shiva",
+          "endTime": "14:54"
+        },
+        "karana": {
+          "first": "वणिज",
+          "firstEnglish": "Vanija",
+          "second": "विष्टी",
+          "secondEnglish": "Vishti"
+        },
+        "rahuKalam": "15:00 - 16:30",
+        "gulikaKalam": "12:00 - 13:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:44",
+      "sunsetTime": "18:25"
+    },
+    {
+      "gregorianDate": 25,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 4,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 12,
+        "tithiName": "द्वादशी",
+        "tithiNameEnglish": "Dwadashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "बुधवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 12द्वादशी",
+          "nameEnglish": "Krishna Dwadashi",
+          "endTime": "18:52",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "उत्तराभाद्रपदा",
+          "nameEnglish": "Uttara Bhadrapada",
+          "endTime": "13:49"
+        },
+        "yoga": {
+          "name": "सिद्ध",
+          "nameEnglish": "Siddha",
+          "endTime": "16:10"
+        },
+        "karana": {
+          "first": "विष्टी",
+          "firstEnglish": "Vishti",
+          "second": "बव",
+          "secondEnglish": "Bava"
+        },
+        "rahuKalam": "12:00 - 13:30",
+        "gulikaKalam": "10:30 - 12:00"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:44",
+      "sunsetTime": "18:26"
+    },
+    {
+      "gregorianDate": 26,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 5,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 13,
+        "tithiName": "त्रयोदशी",
+        "tithiNameEnglish": "Trayodashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "गुरुवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 13त्रयोदशी",
+          "nameEnglish": "Krishna Trayodashi",
+          "endTime": "08:02",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "रेवती",
+          "nameEnglish": "Revati",
+          "endTime": "16:01"
+        },
+        "yoga": {
+          "name": "साध्य",
+          "nameEnglish": "Sadhya",
+          "endTime": "18:26"
+        },
+        "karana": {
+          "first": "बव",
+          "firstEnglish": "Bava",
+          "second": "बालव",
+          "secondEnglish": "Balava"
+        },
+        "rahuKalam": "13:30 - 15:00",
+        "gulikaKalam": "09:00 - 10:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:43",
+      "sunsetTime": "18:26"
+    },
+    {
+      "gregorianDate": 27,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 6,
+      "marathiDate": {
+        "marathiMonth": "माघ",
+        "marathiMonthEnglish": "Magh",
+        "paksha": "कृष्ण",
+        "pakshaEnglish": "Krishna",
+        "tithiNumber": 14,
+        "tithiName": "चतुर्दशी",
+        "tithiNameEnglish": "Chaturdashi",
+        "shakaSamvat": 1947,
+        "marathiDay": "शुक्रवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "कृष्ण 14चतुर्दशी",
+          "nameEnglish": "Krishna Chaturdashi",
+          "endTime": "12:12",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "अश्विनी",
+          "nameEnglish": "Ashwini",
+          "endTime": "19:13"
+        },
+        "yoga": {
+          "name": "शुभ",
+          "nameEnglish": "Shubha",
+          "endTime": "14:42"
+        },
+        "karana": {
+          "first": "बालव",
+          "firstEnglish": "Balava",
+          "second": "कौलव",
+          "secondEnglish": "Kaulava"
+        },
+        "rahuKalam": "10:30 - 12:00",
+        "gulikaKalam": "07:30 - 09:00"
+      },
+      "festivals": [
+        {
+          "name": "आमलकी एकादशी",
+          "nameEnglish": "Amalaki Ekadashi",
+          "type": "VRAT",
+          "description": "",
+          "descriptionEnglish": ""
+        }
+      ],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:42",
+      "sunsetTime": "18:27"
+    },
+    {
+      "gregorianDate": 28,
+      "gregorianMonth": 2,
+      "gregorianYear": 2026,
+      "dayOfWeek": 7,
+      "marathiDate": {
+        "marathiMonth": "फाल्गुन",
+        "marathiMonthEnglish": "Falgun",
+        "paksha": "शुक्ल",
+        "pakshaEnglish": "Shukla",
+        "tithiNumber": 1,
+        "tithiName": "प्रतिपदा",
+        "tithiNameEnglish": "Pratipada",
+        "shakaSamvat": 1947,
+        "marathiDay": "शनिवार"
+      },
+      "panchang": {
+        "tithi": {
+          "name": "शुक्ल 1प्रतिपदा",
+          "nameEnglish": "Shukla Pratipada",
+          "endTime": "16:22",
+          "nextTithi": ""
+        },
+        "nakshatra": {
+          "name": "भरणी",
+          "nameEnglish": "Bharani",
+          "endTime": "12:25"
+        },
+        "yoga": {
+          "name": "शुक्ल",
+          "nameEnglish": "Shukla",
+          "endTime": "16:58"
+        },
+        "karana": {
+          "first": "कौलव",
+          "firstEnglish": "Kaulava",
+          "second": "तैतिल",
+          "secondEnglish": "Taitila"
+        },
+        "rahuKalam": "09:00 - 10:30",
+        "gulikaKalam": "06:00 - 07:30"
+      },
+      "festivals": [],
+      "isGovernmentHoliday": false,
+      "governmentHolidayName": "",
+      "governmentHolidayNameMarathi": "",
+      "sunriseTime": "06:42",
+      "sunsetTime": "18:28"
+    }
+  ]
+}
