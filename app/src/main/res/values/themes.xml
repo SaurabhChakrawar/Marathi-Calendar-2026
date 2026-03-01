@@ -9,10 +9,11 @@
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <!-- System splash: plain white screen only.
-         The actual icon + branding is shown by our custom Compose SplashScreen. -->
+    <!-- System splash: pure white + blank icon so Android 12 doesn't show
+         its own circular-clipped adaptive icon. Custom Compose splash handles branding. -->
     <style name="Theme.MarathiCalendar.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/surface_white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_blank</item>
         <item name="postSplashScreenTheme">@style/Theme.MarathiCalendar</item>
     </style>
 
