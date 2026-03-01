@@ -65,6 +65,25 @@ android {
     }
 }
 
+// Fix: Gradle incremental builds leave stale " 2.xml" files in packaged_res
+// that cause AAPT2 "Failed file name validation" errors. Delete them before
+// each resource packaging task runs so only fresh files are processed.
+afterEvaluate {
+    listOf("packageDebugResources", "packageReleaseResources").forEach { taskName ->
+        tasks.findByName(taskName)?.doFirst {
+            val packedResDir = layout.buildDirectory.dir("intermediates/packaged_res").get().asFile
+            if (packedResDir.exists()) {
+                packedResDir.walkTopDown().filter { file ->
+                    file.isFile && file.name.contains(" ")
+                }.forEach { badFile ->
+                    println("Removing stale file: ${badFile.name}")
+                    badFile.delete()
+                }
+            }
+        }
+    }
+}
+
 dependencies {
     val composeBom = platform("androidx.compose:compose-bom:2025.01.01")
     implementation(composeBom)
