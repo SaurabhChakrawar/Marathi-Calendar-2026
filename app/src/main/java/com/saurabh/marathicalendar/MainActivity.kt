@@ -9,11 +9,13 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -101,7 +103,8 @@ class MainActivity : ComponentActivity() {
                         )
                     }
 
-                    // Compose splash overlay — full logo on white, fades out after 1.5 s
+                    // Compose splash overlay — matches Android 12 system splash size/shape
+                    // so the transition between system splash and this is seamless.
                     if (splashAlpha > 0f) {
                         Box(
                             modifier = Modifier
@@ -113,7 +116,9 @@ class MainActivity : ComponentActivity() {
                             Image(
                                 painter = painterResource(id = R.drawable.ic_splash_logo),
                                 contentDescription = "मराठी दिनदर्शिका २०२६",
-                                modifier = Modifier.size(220.dp)
+                                modifier = Modifier
+                                    .size(200.dp)
+                                    .clip(RoundedCornerShape(percent = 20))
                             )
                         }
                     }

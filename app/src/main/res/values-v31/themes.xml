@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ (API 31) native splash screen attributes.
+     These override the base theme to show the correct photo icon
+     during the mandatory system splash, matching our Compose splash. -->
+<resources>
+    <style name="Theme.MarathiCalendar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/surface_white</item>
+        <item name="android:statusBarColor">@color/saffron_primary</item>
+        <item name="android:navigationBarColor">@color/surface_white</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Native Android 12 splash screen — no library needed -->
+        <item name="android:windowSplashScreenBackground">@color/surface_white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+    </style>
+</resources>
