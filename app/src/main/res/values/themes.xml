@@ -9,10 +9,10 @@
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <!-- Splash screen theme — white background + custom app icon -->
+    <!-- System splash: plain white screen only.
+         The actual icon + branding is shown by our custom Compose SplashScreen. -->
     <style name="Theme.MarathiCalendar.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/surface_white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.MarathiCalendar</item>
     </style>
 
