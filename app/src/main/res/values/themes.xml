@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Main app theme (applied after splash screen exits) -->
+    <!-- Main app theme -->
     <style name="Theme.MarathiCalendar" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/surface_white</item>
         <item name="android:statusBarColor">@color/saffron_primary</item>
         <item name="android:navigationBarColor">@color/surface_white</item>
         <item name="android:windowLightStatusBar">false</item>
-    </style>
-
-    <!-- System splash: pure white + blank icon so Android 12 doesn't show
-         its own circular-clipped adaptive icon. Custom Compose splash handles branding. -->
-    <style name="Theme.MarathiCalendar.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/surface_white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_blank</item>
-        <item name="postSplashScreenTheme">@style/Theme.MarathiCalendar</item>
     </style>
 
 </resources>
