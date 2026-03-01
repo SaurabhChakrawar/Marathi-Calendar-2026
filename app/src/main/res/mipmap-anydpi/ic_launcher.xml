@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="48dp"
-    android:height="48dp"
-    android:viewportWidth="48"
-    android:viewportHeight="48">
-    <!-- Saffron background -->
-    <path android:fillColor="#FF6F00" android:pathData="M0,0 L48,0 L48,48 L0,48 Z"/>
-    <!-- White calendar body -->
-    <path android:fillColor="#FFFFFF" android:pathData="M9,13 L39,13 L39,39 L9,39 Z"/>
-    <!-- Saffron header -->
-    <path android:fillColor="#FF6F00" android:pathData="M9,13 L39,13 L39,20 L9,20 Z"/>
-    <!-- Day dots row 1 -->
-    <path android:fillColor="#FF6F00" android:alpha="0.6" android:pathData="M12,24 L16,24 L16,28 L12,28 Z"/>
-    <path android:fillColor="#FF6F00" android:alpha="0.6" android:pathData="M19,24 L23,24 L23,28 L19,28 Z"/>
-    <path android:fillColor="#FF6F00" android:alpha="0.6" android:pathData="M26,24 L30,24 L30,28 L26,28 Z"/>
-    <!-- Day dots row 2 -->
-    <path android:fillColor="#8B0000" android:alpha="0.8" android:pathData="M12,31 L16,31 L16,35 L12,35 Z"/>
-    <path android:fillColor="#FF6F00" android:alpha="0.6" android:pathData="M19,31 L23,31 L23,35 L19,35 Z"/>
-</vector>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/saffron_primary" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>
