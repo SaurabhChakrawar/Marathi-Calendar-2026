@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
@@ -29,8 +28,6 @@ import kotlinx.coroutines.delay
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        // Exit system splash immediately — our Compose splash handles the branding
-        installSplashScreen().setKeepOnScreenCondition { false }
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
@@ -42,7 +39,7 @@ class MainActivity : ComponentActivity() {
             var selectedTab by remember { mutableIntStateOf(0) }
             var showSettingsDialog by remember { mutableStateOf(false) }
 
-            // Splash state: true = showing splash, false = showing app
+            // Splash: visible for 1.5 s then fades out over 0.5 s
             var showSplash by remember { mutableStateOf(true) }
             val splashAlpha by animateFloatAsState(
                 targetValue = if (showSplash) 1f else 0f,
@@ -51,13 +48,12 @@ class MainActivity : ComponentActivity() {
             )
 
             LaunchedEffect(Unit) {
-                delay(1500L)   // show splash for 1.5 seconds
+                delay(1500L)
                 showSplash = false
             }
 
             MarathiCalendarTheme(isDarkMode = isDarkMode, fontScale = fontSizeOption.scale) {
 
-                // Main app content always rendered underneath
                 Box(modifier = Modifier.fillMaxSize()) {
 
                     val viewModel: MonthViewModel = viewModel(
@@ -105,7 +101,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
 
-                    // Custom splash overlay — fades out after 1.5 s
+                    // Compose splash overlay — full logo on white, fades out after 1.5 s
                     if (splashAlpha > 0f) {
                         Box(
                             modifier = Modifier
