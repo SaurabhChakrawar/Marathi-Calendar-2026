@@ -8,8 +8,11 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -17,7 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.saurabh.marathicalendar.data.storage.FontSizeOption
@@ -136,11 +141,16 @@ private fun SettingsDialog(
     onFontSizeChange: (FontSizeOption) -> Unit,
     onDismiss: () -> Unit
 ) {
+    val uriHandler = LocalUriHandler.current
+
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("सेटिंग्ज") },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
@@ -164,10 +174,63 @@ private fun SettingsDialog(
                         }
                     }
                 }
+
+                HorizontalDivider()
+
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        "माहिती व स्रोत",
+                        style = MaterialTheme.typography.labelLarge
+                    )
+                    Text(
+                        "या अॅपमधील शासकीय सुट्ट्यांची माहिती महाराष्ट्र शासनाच्या अधिकृत राजपत्रावर आधारित आहे. पंचांग माहिती दृक् पंचांगावर आधारित आहे.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    SourceLink(
+                        label = "महाराष्ट्र शासन राजपत्र (सार्वजनिक सुट्ट्या)",
+                        url = "https://gr.maharashtra.gov.in",
+                        onClick = { uriHandler.openUri(it) }
+                    )
+                    SourceLink(
+                        label = "महाराष्ट्र शासन — सामान्य प्रशासन विभाग",
+                        url = "https://gad.maharashtra.gov.in",
+                        onClick = { uriHandler.openUri(it) }
+                    )
+                    SourceLink(
+                        label = "दृक् पंचांग (पंचांग गणना)",
+                        url = "https://www.drikpanchang.com",
+                        onClick = { uriHandler.openUri(it) }
+                    )
+                    Text(
+                        "हे अॅप महाराष्ट्र शासनाशी संलग्न नाही. सुट्ट्यांची यादी शासकीय राजपत्र (GR) वरून संकलित केली आहे.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
         },
         confirmButton = {
             TextButton(onClick = onDismiss) { Text("बंद करा") }
         }
+    )
+}
+
+@Composable
+private fun SourceLink(
+    label: String,
+    url: String,
+    onClick: (String) -> Unit
+) {
+    Text(
+        text = "🔗 $label",
+        style = MaterialTheme.typography.bodyMedium.copy(
+            color = MaterialTheme.colorScheme.primary,
+            textDecoration = TextDecoration.Underline
+        ),
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable { onClick(url) }
+            .padding(vertical = 4.dp)
     )
 }

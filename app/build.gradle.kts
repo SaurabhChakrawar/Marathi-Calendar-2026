@@ -18,8 +18,8 @@ android {
         applicationId = "com.saurabh.marathicalendar"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 6
+        versionName = "1.1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
     }
@@ -102,6 +102,9 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+
+    // Google AdMob
+    implementation("com.google.android.gms:play-services-ads:23.6.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
