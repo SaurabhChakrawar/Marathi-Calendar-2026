@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -26,6 +27,7 @@ fun DayCell(
     dayData: DayData,
     isToday: Boolean,
     isSelected: Boolean,
+    hasNote: Boolean = false,
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -55,6 +57,17 @@ fun DayCell(
             .clickable(onClick = onClick),
         contentAlignment = Alignment.TopCenter
     ) {
+        // Notes indicator — small triangle in top-right corner
+        if (hasNote) {
+            Box(
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(2.dp)
+                    .size(6.dp)
+                    .background(Color(0xFF0288D1), RoundedCornerShape(1.dp))
+            )
+        }
+
         Column(
             modifier = Modifier
                 .fillMaxSize()

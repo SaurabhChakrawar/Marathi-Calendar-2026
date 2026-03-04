@@ -7,14 +7,15 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TransformOrigin
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
@@ -78,14 +79,19 @@ fun MonthScreen(
                     }
                 },
                 actions = {
-                    // Today button — only visible when NOT on today's month
+                    // "आज" (Today) button — visible when NOT on today's month
                     val todayMonth = uiState.todayMonth
                     if (todayMonth != null && pagerState.currentPage + 1 != todayMonth) {
-                        IconButton(onClick = { viewModel.navigateToMonth(todayMonth) }) {
-                            Icon(
-                                imageVector = Icons.Filled.CalendarToday,
-                                contentDescription = "आजचा दिवस",
-                                tint = MaterialTheme.colorScheme.onPrimary
+                        TextButton(
+                            onClick = { viewModel.navigateToMonth(todayMonth) },
+                            colors = ButtonDefaults.textButtonColors(
+                                contentColor = MaterialTheme.colorScheme.onPrimary
+                            )
+                        ) {
+                            Text(
+                                text = "आज",
+                                style = MaterialTheme.typography.labelLarge,
+                                fontWeight = FontWeight.Bold
                             )
                         }
                     }
@@ -238,6 +244,7 @@ private fun MonthPage(
                     viewModel.selectDay(day)
                     monthData.days.find { it.gregorianDate == day }?.let { onDayClick(it) }
                 },
+                daysWithNotes = if (isCurrentPage) uiState.daysWithNotes else emptySet(),
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth()
@@ -305,10 +312,11 @@ private fun FestivalLegend(modifier: Modifier = Modifier) {
         horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        LegendItem(color = SundayRed, label = "सुट्टी/रवि")
+        LegendItem(color = SundayRed, label = "सुट्टी")
         LegendItem(color = FestivalOrange, label = "सण")
         LegendItem(color = VratGreen, label = "व्रत")
         LegendItem(color = AuspiciousGold, label = "धार्मिक")
+        LegendItem(color = Color(0xFF0288D1), label = "नोंद")
     }
 }
 

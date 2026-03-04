@@ -51,6 +51,7 @@ class MonthViewModel(
     fun loadMonth(month: Int) {
         if (month < 1 || month > 12) return
         viewModelScope.launch {
+            val noteDays = notesStorage.getDaysWithNotes(month)
             val cached = monthCache[month]
             if (cached != null) {
                 _uiState.value = _uiState.value.copy(
@@ -58,7 +59,8 @@ class MonthViewModel(
                     monthData = cached,
                     selectedDay = null,
                     selectedDayNote = "",
-                    isLoading = false
+                    isLoading = false,
+                    daysWithNotes = noteDays
                 )
                 return@launch
             }
@@ -69,7 +71,8 @@ class MonthViewModel(
                 monthData = data,
                 selectedDay = null,
                 selectedDayNote = "",
-                isLoading = false
+                isLoading = false,
+                daysWithNotes = noteDays
             )
         }
     }
@@ -87,7 +90,10 @@ class MonthViewModel(
         val month = _uiState.value.currentMonth
         val day = _uiState.value.selectedDay ?: return
         notesStorage.saveNote(month, day, note)
-        _uiState.value = _uiState.value.copy(selectedDayNote = note.trim())
+        _uiState.value = _uiState.value.copy(
+            selectedDayNote = note.trim(),
+            daysWithNotes = notesStorage.getDaysWithNotes(month)
+        )
     }
 
     fun navigateToMonth(month: Int) {

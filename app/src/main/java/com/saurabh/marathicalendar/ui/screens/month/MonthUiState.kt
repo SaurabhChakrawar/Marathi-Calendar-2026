@@ -11,5 +11,6 @@ data class MonthUiState(
     val isLoading: Boolean = true,
     val selectedDayNote: String = "",
     val allMonthsData: Map<Int, MonthData> = emptyMap(),
-    val requestedMonth: Int? = null
+    val requestedMonth: Int? = null,
+    val daysWithNotes: Set<Int> = emptySet()
 )

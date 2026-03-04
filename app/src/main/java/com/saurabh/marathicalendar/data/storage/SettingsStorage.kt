@@ -19,7 +19,7 @@ class SettingsStorage(context: Context) {
     }
 
     fun getFontSize(): FontSizeOption =
-        FontSizeOption.entries.getOrElse(prefs.getInt("font_size", 1)) { FontSizeOption.MEDIUM }
+        FontSizeOption.entries.getOrElse(prefs.getInt("font_size", 2)) { FontSizeOption.LARGE }
 
     fun setFontSize(option: FontSizeOption) {
         prefs.edit().putInt("font_size", option.ordinal).apply()

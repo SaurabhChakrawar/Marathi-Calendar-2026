@@ -17,5 +17,16 @@ class NotesStorage(context: Context) {
         }
     }
 
+    fun getDaysWithNotes(month: Int): Set<Int> {
+        val result = mutableSetOf<Int>()
+        val prefix = "note_2026_${month}_"
+        prefs.all.forEach { (key, value) ->
+            if (key.startsWith(prefix) && (value as? String)?.isNotBlank() == true) {
+                key.removePrefix(prefix).toIntOrNull()?.let { result.add(it) }
+            }
+        }
+        return result
+    }
+
     private fun key(month: Int, day: Int) = "note_2026_${month}_${day}"
 }

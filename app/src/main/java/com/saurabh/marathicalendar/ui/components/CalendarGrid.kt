@@ -13,6 +13,7 @@ fun CalendarGrid(
     todayDate: Int?,
     selectedDay: Int?,
     onDayClick: (Int) -> Unit,
+    daysWithNotes: Set<Int> = emptySet(),
     modifier: Modifier = Modifier
 ) {
     val totalCells = monthData.firstDayOfWeek - 1 + monthData.totalDays
@@ -42,6 +43,7 @@ fun CalendarGrid(
                             dayData = dayData,
                             isToday = dayData.gregorianDate == todayDate,
                             isSelected = dayData.gregorianDate == selectedDay && dayData.gregorianDate != todayDate,
+                            hasNote = dayData.gregorianDate in daysWithNotes,
                             onClick = { onDayClick(dayData.gregorianDate) },
                             modifier = Modifier
                                 .weight(1f)
